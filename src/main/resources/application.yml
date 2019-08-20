@@ -21,6 +21,9 @@ spring:
    consumer:
       group-id: catalogue-1
       auto-offset-reset: earliest
+      #bootstrap-servers: flexIT.ruv.de
+   #producer:
+     #bootstrap-servers: flexIT.ruv.de
 
 server:
   port: 8080
